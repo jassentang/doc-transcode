@@ -1,6 +1,8 @@
 ## 文档转码 `COS公共桶` 转存到 `CAM存储桶` 方法
-说明：文件转存后，转码结果也需要对应的修改，主要修改 `ResultUrl` 和 `ThumbnailUrl` 两个字段    
-比如：没有转存前：ResultUrl: https://transcode-result-1259648581.file.myqcloud.com/ + taskid    
+说明：    
+文件转存后，转码结果也需要对应的修改，主要修改 `ResultUrl` 和 `ThumbnailUrl` 两个字段    
+比如：    
+没有转存前：ResultUrl: https://transcode-result-1259648581.file.myqcloud.com/ + taskid    
 转存后变为：ResultUrl: https://你们的域名/ + taskid
 
 #### 第一步：配置好 [CAM存储桶](https://cloud.tencent.com/document/product/1137/45256)
